@@ -2,4 +2,4 @@
 
 This repository contains an introductory workshop for implementing mapping tools in the R environment.
 
-Click [here](mapping_in_R.Rmd) to check the tutorial for the workshop[a relative link]
+Click [here](https://github.com/Rilquer/mapping_in_r/blob/main/mapping_in_r.Rmd) to check the tutorial for the workshop[a relative link]
