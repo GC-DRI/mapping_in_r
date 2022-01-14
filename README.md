@@ -1,14 +1,3 @@
----
-title: "Mapping in R"
-author: "Rilquer Mascarenhas"
-date: "1/8/2022"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 Mapping in R
 ================
 
