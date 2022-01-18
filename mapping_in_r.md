@@ -3,7 +3,6 @@ Mapping in R
 
 > ## Learning Objectives
 >
-> * Learn about types of spatial data
 > * Load and plot spatial data into R
 > * Customize maps with basic functions
 
