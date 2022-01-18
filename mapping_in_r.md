@@ -169,7 +169,7 @@ ggplot()+geom_sf(data=boroughs, fill = 'antiquewhite')+
                        pad_x = unit(0.3, "in"), pad_y = unit(0.5, "in"),
                        style = north_arrow_fancy_orienteering)
 ```
-![](output/nyc_07.png)<!-- -->
+![](output/nyc_07.tiff)<!-- -->
 
 Before we're done, let's again save our map...
 
