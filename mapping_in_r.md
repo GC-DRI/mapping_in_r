@@ -37,7 +37,7 @@ Now we can plot that data using `ggplot`. Conveniently, `ggplot` already has a g
 ggplot()+geom_sf(data = states)
 ```
 
-![](output/states1.png)<!-- -->
+![](output/states_01.png)<!-- -->
 
 Notice that 1) `ggplot` automatically puts up the coordinates around your map; 2) the color theme used for plotting is the `ggplot` default (which looks good for graphs, but might not be the best for maps); 3) this dataset has all states (not only the lower 48), and also does not have any information on other countries, so it looks like the US is floating on nothing.
 
