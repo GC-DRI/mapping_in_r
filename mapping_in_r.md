@@ -170,14 +170,15 @@ ggplot()+geom_sf(data=boroughs, fill = 'antiquewhite')+
                        style = north_arrow_fancy_orienteering)
 ```
 ![](output/nyc_07.png)<!-- -->
+Notice how in this final figure above, the points are smaller and the map seems more spaced out. This is because this is the file saved using the `ggsave` function, where we can adjust width and height of our pictures. The previous figures above were directly from the R Console, where R will try to fit the whole map into your plot screen to the right (which may sometimes squeeze everything closer). This is why it is important to save your maps, testing out different values for width and height, to see which values give you a figure with nice proportions.
 
-Before we're done, let's again save our map...
+Here, I am saving my maps with width = 7 and height = 9, which I found out (from previous attempt) to yield nice sized figures.
 
 ```{r, message = FALSE, warning = FALSE, tidy = TRUE}
 ggsave('nyc_subway_stops.tif', width = 7, height = 9)
 ```
 
-...and there we go! We have completed our first ever maps using `ggplot`.
+And there we go! We have completed our first ever maps using `ggplot`.
 
 
 
