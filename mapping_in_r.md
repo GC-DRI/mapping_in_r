@@ -8,6 +8,8 @@ Mapping in R
 
 This little tutorial will give you some basic commands to plot maps in R, using the packages `ggplot` and `sf`.
 
+The data we will use in this tutorial can be found [in this link](https://drive.google.com/drive/folders/1xMVOSP1TJlj4ZqaCJHNvh6-0Wqs7kRtJ?usp=sharing).
+
 First, let's load the necessary packages. The maps will be plotted following the `ggplot` standard, so we need that one. Additionally, our spatial objects will be loaded into R in the [SF](https://r-spatial.github.io/sf/articles/sf1.html) format, so it helps us to have
 the `sf` package loaded, to give us some functions to work with them.
 
